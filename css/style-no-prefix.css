@@ -28,6 +28,7 @@ img{
 
 body{
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
     font-size: 18px;
 }
 
@@ -45,7 +46,6 @@ a:focus{
 /* Header */
 
 .header{
-    background-color: #242B33;
     position: fixed;
     top: 0;
     left: 0;
@@ -95,5 +95,51 @@ a:focus{
     letter-spacing: 0.05em;
     text-decoration: none;
     color: #FFFFFF;
+}
+
+/* Intro */
+
+.intro{
+    background-image: url(../img/jpg/intro-bg.jpg);
+    padding: 296px 0 74px 0;
+}
+
+.intro__info{
+    margin: 0 auto;
+    max-width: 582px;
+}
+
+.intro__info-title{
+    max-width: 556px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    margin: 0 auto 100px auto;
+}
+
+.intro__info-mouse{
+    margin-bottom: 200px;
+}
+
+.intro__info-mouse img{
+    display: block;
+    margin: 0 auto;
+}
+
+.intro__info-connect{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+}
+
+.intro__info-connect-item{
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
 }
 
