@@ -31,6 +31,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-size: 18px;
+    background-color: #242B33;
 }
 
 a:focus{
@@ -155,5 +156,44 @@ a:focus{
 .intro__info-phone{
     background-image: url(../img/svg/intro-phone.svg);
     padding-left: 36px;
+}
+
+/* Testimonials */
+
+.testim{
+    background-image: url(../img/jpg/two.jpg);
+    background-position: top 116px right 258px;
+}
+
+.testim__content{
+    padding: 120px 0;
+}
+
+.testim__cards{
+    display: grid;
+    grid-template-columns: minmax(auto, 193px) repeat(3, minmax(auto, 135px));
+    gap: 30px 70px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.testim__card{
+    text-align: center;
+}
+
+.testim__card-img{
+    margin-bottom: 53px;
+}
+
+.testim__card:first-child {
+    max-width: 193px;
+}
+
+.testim__card-text{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: white; 
 }
 
