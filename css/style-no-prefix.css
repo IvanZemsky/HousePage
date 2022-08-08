@@ -243,3 +243,30 @@ a:focus{
     line-height: 28px;
     color: white;
 }
+
+/* Connect-one */
+
+
+
+.connect-one__title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    margin-bottom: 50px;
+}
+
+.connect-one__content{
+    padding: 180px 0;
+}
+
+.connect-one__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.connect-one__input{
+    
+}
