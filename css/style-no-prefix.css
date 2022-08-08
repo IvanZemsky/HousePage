@@ -39,6 +39,11 @@ a:focus{
     border: none;
 }
 
+input, button{
+    outline: none;
+    border: none;
+}
+
 .wrapper{
     max-width: 1150px;
     padding: 0 20px;
@@ -199,6 +204,11 @@ a:focus{
 
 /* Apartments */
 
+.apart{
+    background-image: url(../img/jpg/three.jpg);
+    background-position: left 179px top 70px;
+}
+
 .apart__title{
     font-family: 'Playfair Display';
     font-weight: 700;
@@ -246,7 +256,19 @@ a:focus{
 
 /* Connect-one */
 
+.connect-one{
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%),
+    url(../img/jpg/connect-one-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 
+.connect-one__wrap{
+    display: grid;
+    grid-column-start: auto;
+    grid-template-columns: minmax(383px, 535px) 540px;
+    gap: 35px;
+}
 
 .connect-one__title{
     font-family: 'Playfair Display';
@@ -268,5 +290,51 @@ a:focus{
 }
 
 .connect-one__input{
-    
+    font-family: 'Raleway';
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.connect-one__input::placeholder{
+    font-family: 'Raleway';
+    color: #BEBEBE;
+}
+
+.connect-one__form-text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.connect-one__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    background: #D4C17F;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.connect-one__form-wrap{
+    display: flex;
+    align-items: flex-end;
+}
+
+.connect-one__form{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: minmax(200px, 255px) minmax(200px, 255px);
+    gap: 35px 30px;
 }
