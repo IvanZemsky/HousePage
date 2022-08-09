@@ -50,6 +50,54 @@ input, button{
     margin: 0 auto;
 }
 
+.page-title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+/* connect */
+
+.connect__input{
+    font-family: 'Raleway';
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+}
+
+.connect__input::placeholder{
+    font-family: 'Raleway';
+    color: #BEBEBE;
+}
+
+.connect__form-text{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+}
+
+.connect__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway';
+    background: #D4C17F;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 /* Header */
 
 .header{
@@ -210,11 +258,6 @@ input, button{
 }
 
 .apart__title{
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    color: #D4C17F;
     margin-bottom: 100px;
 }
 
@@ -271,11 +314,6 @@ input, button{
 }
 
 .connect-one__title{
-    font-family: 'Playfair Display';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 48px;
-    color: #D4C17F;
     margin-bottom: 50px;
 }
 
@@ -338,3 +376,75 @@ input, button{
     grid-template-columns: minmax(200px, 255px) minmax(200px, 255px);
     gap: 35px 30px;
 }
+
+/* Video */
+
+.video{
+    background-image: url(../img/jpg/four.jpg);
+    background-position: right 200px center;
+    margin-bottom: 180px;
+}
+
+.video__item{
+    position: relative;
+    margin: 0 auto;
+    max-width: 719px;
+    height: 650px;
+    background-image: url(../img/jpg/video.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.video__button-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(36, 43, 51, 0.8);
+}
+
+.video__button{
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Map */
+
+.map{
+    background-image: url(../img/jpg/five.jpg);
+    background-position: top 90px left 270px;
+    margin-bottom: 180px;
+}
+
+.map__title{
+    margin-bottom: 100px;
+}
+
+.map__item{
+    width: 100%;
+    height: 358px;
+    background-color: #626262;
+}
+
+
+/* Connect two */
+
+.connect-two{
+    margin-bottom: 180px;
+}
+
+.connect-two__title{
+    margin-bottom: 50px;
+}
+
+.connect-two__form{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 35px;
+}
+
+
