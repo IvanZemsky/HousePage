@@ -157,7 +157,7 @@ input, button{
 .intro{
     background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%),
     url(../img/jpg/intro-bg.jpg);
-    padding: 296px 0 74px 0;
+    padding: 296px 0 75px 0;
     background-position: center center;
     background-size: cover;
 }
@@ -443,8 +443,74 @@ input, button{
 
 .connect-two__form{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 251px));
     gap: 35px;
 }
+
+/* Footer */
+
+.footer{
+    background-color: #2D343C;
+}
+
+.footer__content{
+    padding: 60px 0 50px 0;
+}
+
+.footer__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 30px;
+}
+
+.footer__logo-big{
+    display: block;
+    font-family: 'Post No Bills Jaffna SemiBold';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.footer__logo-small{
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.footer__link:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.footer__link-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__item-email{
+    color: #D4C17F;
+    font-weight: 700;
+}
+
+.footer__socials{
+    padding-top: 5px;
+    display: flex;
+    gap: 21px;
+
+}
+
+
+
+
 
 
