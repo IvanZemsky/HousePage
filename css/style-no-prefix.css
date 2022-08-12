@@ -500,6 +500,17 @@ input, button{
 
 /* Media queries */
 
+@media (max-width: 1812px) {
+
+    .testim,
+    .apart,
+    .video,
+    .map{
+        background-image: none;
+    }
+
+}
+
 @media (max-width: 1025px){
 
     .connect-one__wrap{
@@ -514,12 +525,6 @@ input, button{
     }
 
     .connect-one__form{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-        gap: 35px;
-    }
-
-    .connect-two__form{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 35px;
@@ -547,12 +552,17 @@ input, button{
         top: 0;
         left: 0;
         width: 100%;
-        padding: 50px 95px 50px 50px;
+        padding: 30px 70px 30px 30px;
         flex-direction: column;
         gap: 20px;
         background-color: #30363c;
         transform: translateY(-100%);
+        transition: .2s;
         z-index: 100;
+    }
+
+    .header__nav_active{
+        transform: translateY(0%);
     }
 
     .header__nav-link{
@@ -565,9 +575,11 @@ input, button{
         width: 35px;
         height: 35px;
         position: absolute;
-        top: 46px;
-        right: 50px;
+        top: 27px;
+        right: 20px;
         cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
         z-index: 110;
     }
 
@@ -593,9 +605,11 @@ input, button{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         cursor: pointer;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
         z-index: 90;
     }
 
@@ -642,6 +656,10 @@ input, button{
         margin-bottom: 90px;
     }
 
+    .apart__card-text{
+        padding: 30px;
+    }
+
     .video__item{
         height: 350px;
     }
@@ -655,6 +673,14 @@ input, button{
     .map,
     .connect-two{
         margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 475px){
+
+    .header__nav-link{
+        font-size: 18px;
     }
 
 }
